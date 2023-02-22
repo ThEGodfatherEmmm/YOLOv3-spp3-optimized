@@ -1,0 +1,4 @@
+classes=10
+train=data/bddtrain.txt
+valid=data/bddval.txt
+names=data/bdd100k.names

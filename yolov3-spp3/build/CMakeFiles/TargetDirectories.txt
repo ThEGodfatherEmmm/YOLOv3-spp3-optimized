@@ -1,0 +1,4 @@
+/home/abc/tensorrtx/yolov3-spp3/build/CMakeFiles/rebuild_cache.dir
+/home/abc/tensorrtx/yolov3-spp3/build/CMakeFiles/edit_cache.dir
+/home/abc/tensorrtx/yolov3-spp3/build/CMakeFiles/yololayer.dir
+/home/abc/tensorrtx/yolov3-spp3/build/CMakeFiles/yolov3-spp.dir

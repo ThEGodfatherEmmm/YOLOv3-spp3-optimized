@@ -1,0 +1,103 @@
+Apex recommended for faster mixed precision training: https://github.com/NVIDIA/apex
+Namespace(adam=False, batch_size=16, bucket='', cache_images=False, cfg='cfg/yolov3-spp3.cfg', data='data/bdd100k.data', device='', epochs=30, evolve=False, freeze_layers=False, img_size=[320, 640], multi_scale=False, name='', nosave=False, notest=False, rect=False, resume=False, single_cls=False, weights='')
+Using CUDA device0 _CudaDeviceProperties(name='GeForce GTX 1080 Ti', total_memory=11178MB)
+           device1 _CudaDeviceProperties(name='GeForce GTX 1080 Ti', total_memory=11178MB)
+
+Start Tensorboard with "tensorboard --logdir=runs", view at http://localhost:6006/
+Model Summary: 225 layers, 6.38998e+07 parameters, 6.38998e+07 gradients
+Optimizer groups: 76 .bias, 76 Conv2d.weight, 73 other
+Image sizes 320 - 640 train, 640 test
+Using 8 dataloader workers
+Starting training for 30 epochs...
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05      0.14    0.0754    0.0516    0.0862
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.288     0.124     0.099     0.154
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.466     0.132     0.118     0.176
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.366     0.193     0.159     0.241
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.366     0.207     0.183     0.256
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05      0.38     0.219     0.194     0.272
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.388     0.228     0.206     0.283
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.393     0.235     0.213     0.291
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.397     0.239     0.217     0.296
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.398     0.242     0.222     0.299
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.403     0.245     0.225     0.303
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.407     0.248     0.227     0.307
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.408      0.25     0.229     0.308
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.413     0.252      0.23     0.312
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.416     0.252     0.232     0.313
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.418     0.253     0.233     0.313
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.422     0.253     0.234     0.315
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.427     0.253     0.235     0.316
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.431     0.253     0.236     0.317
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.436     0.253     0.237     0.319
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.442     0.253     0.238     0.321
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.446     0.253     0.239     0.322
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05      0.45     0.252      0.24     0.322
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.457     0.253     0.241     0.324
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.462     0.253     0.241     0.325
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.467     0.253     0.242     0.326
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.471     0.253     0.243     0.328
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.476     0.254     0.244     0.329
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05     0.479     0.254     0.245      0.33
+
+     Epoch   gpu_mem      GIoU       obj       cls     total   targets  img_size
+                 all     1e+04  1.71e+05      0.48     0.255     0.246     0.331
+30 epochs completed in 20.481 hours.
+
